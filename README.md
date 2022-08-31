@@ -9,22 +9,30 @@ Note: The SCUT-CAB dataset can only be used for non-commercial research purpose.
 
 ## Description
 
-The SCUT-CAB Dataset contains 12,253 Chinese ancient book images with 116,629 text lines
-and 1,155,801 characters. According to different application scenes, SCUT-HCCDoc can be roughly
-divided into five subsets: 
-* HCCDoc-WT: images of traditional Chinese characters;
-* HCCDoc-WS: images of simplified Chinese characters without a formatted background;
-* HCCDoc-WSF: images of simplified Chinese characters with the formatted background;
-* HCCDoc-SN: images of student notes;
-* HCCDoc-EP: images of examination papers.
+The SCUT-CAB Dataset contains 4000  images of Chinese ancient books, including 31,931 layout element
+annotations, which contains different binding forms, fonts, and preservation conditions. To facilitate multiple tasks
+of layout analysis, the dataset is divided into two parts: CAB-Physical for physical layout analysis and CAB-Logical for logical layout analysis. 
+CAB-Physical contains 4 classes including 31,931 layout elements annotations, CAB-Logical contains 27 classes including 31,931 layout
+elements annotations. The SCUT-CAB dataset also contains the labeling of the reading order.
 
-The sample distribution of five subsets is shown below:
-  
+## Examples of SCUT-CAB
+Data source:
+  + Buddhist scriptures. The dataset of MTHv2 [14] contains Buddhist scripture
+datasets of various layouts, which are suitable for layout analysis tasks. Bud-
+dhist scriptures are rich in content, including political, ethical, philosophical,
+literature, art, customs etc.
++ Chinese Remade Rare Book. Rare books are the essence of ancient book
+culture. Selected and representative precious classics in the history of books
+and editions.
++ Others. Includes a variety of ancient books including local county histories
+and poetry scriptures.
+
 ![sample_distribution](images/sample_distribution.png)
 
-The comparison of the five subsets of SCUT-HCCDoc in 
-terms of the character number and text line box number (ABN is average box number; 
-ACN is average character number) is shown below.
+## Statistics of SCUT-CAB
+
+
+
  
 ![five subset](images/five_subsets_com.png)
 

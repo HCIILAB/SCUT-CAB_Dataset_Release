@@ -17,7 +17,7 @@ elements annotations. The SCUT-CAB dataset also contains the labeling of the rea
 
 ## Examples of SCUT-CAB
 Data source:
-  + Buddhist scriptures. The dataset of MTHv2 [14] contains Buddhist scripture
+  + Buddhist scriptures. The dataset of MTHv2 contains Buddhist scripture
 datasets of various layouts, which are suitable for layout analysis tasks. Bud-
 dhist scriptures are rich in content, including political, ethical, philosophical,
 literature, art, customs etc.
@@ -27,43 +27,23 @@ and editions.
 + Others. Includes a variety of ancient books including local county histories
 and poetry scriptures.
 
-![sample_distribution](images/sample_distribution.png)
+![examples](img/cab_examples.png)
+
+Examples of reading order：
+![reading_order](img/cab_reading_order.png)
 
 ## Statistics of SCUT-CAB
 
+The following pysical semantic appearance are annotated in CAB-Pysical:(centerfold strip, figure, page box,
+text) with four categories.
+![physical](img/cab_physical.png)
 
-
- 
-![five subset](images/five_subsets_com.png)
-
-The following are some page/text level images of SCUT-HCCDoc:
-
-![page_samples](images/page_exmaples.png)
-
-![text lines1](images/weixin_7053_3.jpg)
-
-![text lines2](images/multiA_1197_14.jpg)
-
-![text lines4](images/weixin_7120_9.jpg)
-
-![text lines3](images/multiB_5439_12.jpg)
-
-
-
-The diversity of SCUT-HCCDoc can be described in three levels: 
-1) **Image-level diversity:** image appearance and geometric variances caused by camera-captured settings (such as perspective, background, and resolution) and  different applications (such as note-taking, test papers, and homework); 
-2) **Text-level diversity:** variances of text line length, rotation, etc.; 
-3) **Character-level diversity:** variances of character categories (up to 6,109 classes with additional English letters, and digits), character size, individual writing style, etc.
-
-For example, the following image shows the number of character instances for the 50 most frequently observed character categories in the SCUT-HCCDoc.
-
-![top50_chars](images/top_50_chars.png)
-
-## Text recognition baseline (updated)
-
-Here, we give the **latest baseline results**, which are different from those in the paper. In the paper, the input images of the recognizers are resize to 576 x 126 directly. However, we found that it is appropriate, because it will cause huge  deformations in the long text images. So when training, we keep the aspect ratio of input image, and pad the image with zero pixels to a size of 2304 x 126. The network structure and  other training parameter settings are unchanged. The experiments have shown that it does lead to significant improvements, as shown in the tables below.
-
-![updated_rec_result](images/updated_rec_result.jpg)
+The following logical semantic structures are annotated in CAB-Logical: (EOV, author, bibliography, book number,
+caption,centerfold strip, chapter title, collation table,colophon, compiler, ear note, endnote,
+engraver,figure, foliation, header, interliner note,marginal annotation, page
+box, part, section title,sub section title, subtitle, sutra number, text,title,
+volumn number) with 27 classes.
+![logical](img/cab_logical.png)
 
 ## Citation and Contact
 Please consider to cite our paper when you use our dataset:
@@ -82,7 +62,3 @@ For any quetions about the dataset please contact the authors by sending email t
 ([lianglysky@gmail.com](mailto:lianglysky@gmail.com)) or Hesuo Zhang 
 ([eehesuo.zhang@mail.scut.edu.cn](mailto:eehesuo.zhang@mail.scut.edu.cn)).
 
-## Statement
-Many images of SCUT-HCCDoc are searched and downloaded from the Internet, we do not own the copyright of the images. For researchers and developers who wish to use the images for non-commercial research and/or education purpose, we provide the access to images and the corresponding annotations.The url of the web images are given in the dataset. 
-
-If you believe that any images or text in SCUT-HCCDoc violated your rights, please let us know, and we will remove the images.

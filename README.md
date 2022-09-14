@@ -4,13 +4,14 @@ The SCUT-CAB Dataset for the research of document layout analysis in Chinese anc
 - [Baidu Cloud](https://pan.baidu.com/s/1xxgt3olnC3nh4-nf7K9Nvg)(Password: dlvc)
 - [OneDrive](https://1drv.ms/u/s!AkXauEAZ68NKoQoaUccK7MjVetNq?e=RcQD8t) 
 
-Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the EPHOIE database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc)) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, visual information extraction. At present, this dataset is only freely open to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
-
-## Copyright section
-License
-SCUT-CAB dataset should be used and distributed under Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for non-commercial research purposes.
+Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc)) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, visual information extraction. At present, this dataset is only freely open to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
 
 For any person/institute/company who do not works in the field of OCR or document analysis and visual information extraction, please contact us to obtain a commercial license.
+
+## License
+SCUT-CAB dataset should be used and distributed under Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for non-commercial research purposes.
+
+
 
 ## Description
 <!-- The SCUT-CAB Dataset contains 4000  images of Chinese ancient books, including 31,931 layout element annotations, which contains different binding forms, fonts, and preservation conditions. To facilitate multiple tasks of layout analysis, the dataset is divided into two parts: CAB-Physical for physical layout analysis and CAB-Logical for logical layout analysis.  CAB-Physical contains 4 classes including 31,931 layout elements annotations, CAB-Logical contains 27 classes including 31,931 layout elements annotations. The SCUT-CAB dataset also contains the labeling of the reading order. -->
@@ -70,6 +71,33 @@ engraver,figure, foliation, header, interliner note,marginal annotation, page
 box, part, section title,sub section title, subtitle, sutra number, text,title,
 volumn number) with 27 classes.
 ![logical](img/cab_logical.png)
+
+
+## Directory Format
+The dataset is organized in the following directory format:
+├─SCUT-CAB
+│  ├─SCUT-CAB-logical
+│  │  ├─images
+│  │  │  ├─xxx.png
+│  │  │  └─...
+│  │  ├─json
+│  │  │  ├─xxx.json
+│  │  │  └─...
+│  │  ├─coco
+│  │  │  ├─instances_train2017.json
+│  │  │  ├─instances_val2017.json
+│  │  │  └─instances_test2017.json
+│  ├─SCUT-CAB-physical
+│  │  ├─images
+│  │  │  ├─xxx.png
+│  │  │  └─...
+│  │  ├─json
+│  │  │  ├─xxx.json
+│  │  │  └─...
+│  │  ├─coco
+│  │  │  ├─instances_train2017.json
+│  │  │  ├─instances_val2017.json
+│  │  │  └─instances_test2017.json
 
 ## Citation and Contact
 Please consider to cite our paper when you use our dataset:

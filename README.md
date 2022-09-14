@@ -42,10 +42,10 @@ layout element “header”, as shown in Fig. 1(d). (2) The butterfly bindings t
 while reading books), as shown in Fig. 1(f). (3) The butterfly binding that contains the category of “book ears” (which are at the top of the left column
 of the page box, and sometimes a tiny square appears, mainly found in the butterfly binding layout of the Song Dynasty), as shown in Fig. 1(g).
 
-![examples](img/cab_quantities.jpg)
+![examples](img/cab_quantities.png)
 
 Examples of reading order：
-![reading_order](img/cab_reading_order.png)
+![reading_order](img/cab_reading_order.jpg)
 
 ## Statistics of SCUT-CAB
 

@@ -48,8 +48,8 @@ volumn number) with 27 classes.
 ## Citation and Contact
 Please consider to cite our paper when you use our dataset:
 ```
-@article{zhang2020scut,
-  title={SCUT-HCCDoc: A New Benchmark Dataset of Handwritten Chinese Text in Unconstrained Camera-captured Documents},
+@article{cheng2022scut,
+  title={SCUT-CAB: A New Benchmark Dataset of Ancient Chinese Books with Complex Layouts for Document Layout Analysis},
   author={Hiuyi Cheng, Cheng Jian, Sihang Wu, Lianwen Jin},
 }
 ```

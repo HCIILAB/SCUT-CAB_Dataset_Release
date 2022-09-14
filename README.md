@@ -71,7 +71,11 @@ reading order of the body text, and the labels outside were ignored, such as the
 Table 1 and Table 2 provide the statistics of the training and testing sets in the SCUT-CAB-Physical and SCUT-CAB-Logical, respectively, where the
 numbers and percentages of each category are presented.
 
+Table 1. Statistics of training and testing sets in SCUT-CAB-Physical.
+![](img/cab_statistic_physical.png)
 
+Table 2. Statistics of training and testing sets in SCUT-CAB-Logical.
+![](img/cab_statistic_logical.png)
 
 ## Directory Format
 The dataset is organized in the following directory format:

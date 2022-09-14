@@ -71,26 +71,7 @@ reading order of the body text, and the labels outside were ignored, such as the
 Table 1 and Table 2 provide the statistics of the training and testing sets in the SCUT-CAB-Physical and SCUT-CAB-Logical, respectively, where the
 numbers and percentages of each category are presented.
 
-    \begin{table}[H]
-        \centering
-        \vspace{-0.5cm}
-        \scriptsize
-        \caption{Statistics of training and testing sets in SCUT-CAB-Physical.}
-        \label{tab2}
-        \resizebox{0.75\linewidth}{!}{ 
-        \begin{tabular}{lcccc}
-        \hline
-            \multirow{2}{*}{\textbf{Category}} & \multicolumn{2}{c}{\textbf{Training}} & \multicolumn{2}{c}{\textbf{Testing}} \\ 
-            & \textbf{Number} & \textbf{Percentage(\%)} & \textbf{Number} & \textbf{Percentage(\%)} \\ \hline
-            centerfold strip & 3037 & 11.84  & 757 & 12.05 \\ 
-            figure & 361 & 1.41  & 64 & 1.02   \\ 
-            page box & 3260 & 12.71  & 813 & 12.94  \\ 
-            text & 18992 & 74.04  & 4647 & 73.99   \\ 
-            \textbf{Total} & \textbf{25650} & \textbf{100.00}  & \textbf{6281} & \textbf{100.00}   \\ \hline
-        \end{tabular}
-        }
-        \vspace{-0.5cm}
-    \end{table}
+
 
 ## Directory Format
 The dataset is organized in the following directory format:

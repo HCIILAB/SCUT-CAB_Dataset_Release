@@ -50,7 +50,7 @@ Fig. 1. Multiple layouts of SCUT-CAB. (a) Warp-fold binding. (b) Wrapped-back bi
 
 Ancient books have faded and corroded due to degradation from centuries of use. Therefore, in addition to the contents and layout diversity, we have taken into account multiple image qualities of the ancient books when constructing the dataset, including pages damaged(Fig. 2, a), ink fading(Fig. 2, b), and backthrough(Fig. 2, c). Due to the rapid improvement printing techniques, modern photocopying technology has already surpassed the original lithography technology in terms of version identification and reproduction effect. This also makes the Reproductions of Chinese Rare Editions Series have more exquisite quality assurance, as shown in Fig. 2(d). The local chronicles datasets are mostly scanned black and white pictures, and there are many damages and unclear handwriting, as shown in Fig. 2(e).
 
-![](img/cab_quantities.jpg)
+![](img/cab_quantities.png)
 Fig. 2. Multiple image quality of SCUT-CAB. (a) Pages damaged. (b) Ink fading. (c) Back-through. (d) Exquisite. (e) Damages and unclear.
 
 

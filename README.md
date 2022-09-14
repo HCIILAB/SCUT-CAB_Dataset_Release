@@ -75,7 +75,7 @@ volumn number) with 27 classes.
 
 ## Directory Format
 The dataset is organized in the following directory format:
-'''
+```
 ├─SCUT-CAB
 │  ├─SCUT-CAB-logical
 │  │  ├─images
@@ -99,7 +99,7 @@ The dataset is organized in the following directory format:
 │  │  │  ├─instances_train2017.json
 │  │  │  ├─instances_val2017.json
 │  │  │  └─instances_test2017.json
-'''
+```
 
 ## Citation and Contact
 Please consider to cite our paper when you use our dataset:

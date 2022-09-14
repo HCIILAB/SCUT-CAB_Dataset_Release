@@ -114,5 +114,5 @@ Please consider to cite our paper when you use our dataset:
 }
 ```
 
-For any quetions about the dataset please contact Prof. Jin([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)).
+For any quetions about the dataset please contact the authors by sending email to Prof. Jin([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)).
 

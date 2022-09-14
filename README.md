@@ -27,7 +27,7 @@ and editions.
 + Others. Includes a variety of ancient books including local county histories
 and poetry scriptures.
 
-![examples](img/cab_examples.jpg)
+![examples](img/cab_example.jpg)
 
 Examples of reading order：
 ![reading_order](img/cab_reading_order.png)

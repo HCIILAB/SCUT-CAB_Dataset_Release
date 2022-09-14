@@ -6,8 +6,6 @@ The SCUT-CAB Dataset for the research of document layout analysis in Chinese anc
 
 Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc)) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, visual information extraction. At present, this dataset is only freely open to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
 
-For any person/institute/company who do not works in the field of OCR or document analysis and visual information extraction, please contact us to obtain a commercial license.
-
 ## License
 SCUT-CAB dataset should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
 
@@ -51,11 +49,20 @@ Ancient books have faded and corroded due to degradation from centuries of use. 
 Fig. 2. Multiple image quality of SCUT-CAB. (a) Pages damaged. (b) Ink fading. (c) Back-through. (d) Exquisite. (e) Damages and unclear.
 
 ## SCUT-CAB-Logical and SCUT-CAB-Physical Subsets
-SCUT-CAB-Logical: To better understand the meaning of different regions of ancient books, we define the categories of logical analysis data based on the basic knowledge of ancient books and “Introduction to Collation of Ancient Books” [13]. In this work, the following logical categories are annotated in SCUT-CAB: {EOV (end of the volume), author, bibliography, book number, caption, centerfold strip, chapter title, collation table, colophon, compiler, ear note, endnote, engraver, figure, foliation, header, interlinear note, marginal annotation, page box, part, section title, sub section title, subtitle, sutra number, text, title, volume number}. It contains 31,931 layout elements annotated in 27 categories. A sample of all categories is given in Fig. 3. • SCUT-CAB-Physical: Physical analysis tasks do not need to classify as in detail as logical analysis tasks, so we modify the categories in SCUT-CABLogical. There are 4 categories: {centerfold strip, figure, page box, text}.
+
++ SCUT-CAB-Logical: To better understand the meaning of different regions of ancient books, we define the categories of logical analysis data based on the basic knowledge of ancient books and “Introduction to Collation of Ancient Books” [13]. In this work, the following logical categories are annotated in SCUT-CAB: {EOV (end of the volume), author, bibliography, book number, caption, centerfold strip, chapter title, collation table, colophon, compiler, ear note, endnote, engraver, figure, foliation, header, interlinear note, marginal annotation, page box, part, section title, sub section title, subtitle, sutra number, text, title, volume number}. It contains 31,931 layout elements annotated in 27 categories. A sample of all categories is given in Fig. 3. 
++ SCUT-CAB-Physical: Physical analysis tasks do not need to classify as in detail as logical analysis tasks, so we modify the categories in SCUT-CABLogical. There are 4 categories: {centerfold strip, figure, page box, text}.
+
+![](img/cab_example.jpg)
+Fig. 3. Examples of SCUT-CAB images and annotations. 27 categories of layout elements are highlighted in different colors.
 
 
+### Reading order
 
-Examples of reading order：
+SCUT-CAB includes reading-order annotations. As shown in Fig. 4, the correct reading order is from top to bottom and left to right. We focused only on the
+reading order of the body text, and the labels outside were ignored, such as the volume number of sutra and centerfold strips in pages, as shown in Fig. 4(a) and
+4(b). For photocopies, we filtered out labels that were extremely small, which could disrupt the reading order, as shown in Fig. 4(c).
+
 ![](img/cab_reading_order.jpg)
 
 

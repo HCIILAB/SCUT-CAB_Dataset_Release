@@ -4,7 +4,7 @@ The SCUT-CAB Dataset for the research of document layout analysis in Chinese anc
 - [Baidu Cloud](https://pan.baidu.com/s/1xxgt3olnC3nh4-nf7K9Nvg)
 - [OneDrive](https://1drv.ms/u/s!AkXauEAZ68NKoQoaUccK7MjVetNq?e=RcQD8t) 
 
-Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc)) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, visual information extraction. At present, this dataset is only freely open to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
+Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, visual information extraction. At present, this dataset is only freely open to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
 
 ## License
 SCUT-CAB dataset should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
@@ -68,17 +68,29 @@ reading order of the body text, and the labels outside were ignored, such as the
 
 ## Statistics of SCUT-CAB
 
-The following pysical semantic appearance are annotated in CAB-Pysical:(centerfold strip, figure, page box,
-text) with four categories.
-![physical](img/cab_physical.png)
+Table 1 and Table 2 provide the statistics of the training and testing sets in the SCUT-CAB-Physical and SCUT-CAB-Logical, respectively, where the
+numbers and percentages of each category are presented.
 
-The following logical semantic structures are annotated in CAB-Logical: (EOV, author, bibliography, book number,
-caption,centerfold strip, chapter title, collation table,colophon, compiler, ear note, endnote,
-engraver,figure, foliation, header, interliner note,marginal annotation, page
-box, part, section title,sub section title, subtitle, sutra number, text,title,
-volumn number) with 27 classes.
-![logical](img/cab_logical.png)
-
+    \begin{table}[H]
+        \centering
+        \vspace{-0.5cm}
+        \scriptsize
+        \caption{Statistics of training and testing sets in SCUT-CAB-Physical.}
+        \label{tab2}
+        \resizebox{0.75\linewidth}{!}{ 
+        \begin{tabular}{lcccc}
+        \hline
+            \multirow{2}{*}{\textbf{Category}} & \multicolumn{2}{c}{\textbf{Training}} & \multicolumn{2}{c}{\textbf{Testing}} \\ 
+            & \textbf{Number} & \textbf{Percentage(\%)} & \textbf{Number} & \textbf{Percentage(\%)} \\ \hline
+            centerfold strip & 3037 & 11.84  & 757 & 12.05 \\ 
+            figure & 361 & 1.41  & 64 & 1.02   \\ 
+            page box & 3260 & 12.71  & 813 & 12.94  \\ 
+            text & 18992 & 74.04  & 4647 & 73.99   \\ 
+            \textbf{Total} & \textbf{25650} & \textbf{100.00}  & \textbf{6281} & \textbf{100.00}   \\ \hline
+        \end{tabular}
+        }
+        \vspace{-0.5cm}
+    \end{table}
 
 ## Directory Format
 The dataset is organized in the following directory format:

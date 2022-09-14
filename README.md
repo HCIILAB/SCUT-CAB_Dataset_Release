@@ -7,16 +7,16 @@ The SCUT-CAB Dataset for the research of document layout analysis in Chinese anc
 
 Note: The SCUT-CAB dataset can only be used for non-commercial research purpose. For scholars or organization who wants to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application_Form_for_Using_SCUT-CAB_2022.doc) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)). When submiting the application form to us, please list or attached 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, and so on. We will give you the decompression password after your letter has been received and approved. 
 
-# Copyright section
+## Copyright section
 License
 SCUT-CAB dataset should be used and distributed under Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for non-commercial research purposes.
 
-# Description
+## Description
 <!-- The SCUT-CAB Dataset contains 4000  images of Chinese ancient books, including 31,931 layout element annotations, which contains different binding forms, fonts, and preservation conditions. To facilitate multiple tasks of layout analysis, the dataset is divided into two parts: CAB-Physical for physical layout analysis and CAB-Logical for logical layout analysis.  CAB-Physical contains 4 classes including 31,931 layout elements annotations, CAB-Logical contains 27 classes including 31,931 layout elements annotations. The SCUT-CAB dataset also contains the labeling of the reading order. -->
 The SCUT-CAB Dataset is established by manually annotating 4000 images of ancient books, including 31,931 layout element annotations, which contains different binding forms, fonts, and preservation conditions. To facilitate the multiple tasks involved in document layout analysis, the dataset is segregated into two subsets: SCUT-CAB-Physical for physical layout analysis and SCUT-CAB-Logical for logical layout analysis. SCUT-CABPhysical contains four categories, whereas SCUT-CAB-Logical contains 27 categories. Furthermore, the SCUT-CAB dataset comprises the labeling of the reading order.
 
-# Examples of SCUT-CAB
-## Data source:
+## Examples of SCUT-CAB
+### Data source:
 
 We have collected ancient books of different content, including:
 
@@ -24,7 +24,7 @@ We have collected ancient books of different content, including:
 + Reproductions of Chinese Rare Editions Series, which covers the essence of Chinese cultural classics to the greatest extent. It has a high documentary value, academic research value and preservation value. All the books in this series are in the form of photocopying, According to the original book layout, they are photographed, printed, and collected, and they are carefully crafted. 
 + Local chronicles, one of the essential sources for studying Chinese history over the past thousand years. They contain copious materials on local administration, local economies, local cultures, local dialects, local officials, and local dignitaries.
 
-## Multiple layouts
+### Multiple layouts
 
 Layouts included in SCUT-CAB are as follows:
 

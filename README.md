@@ -9,7 +9,7 @@ Note: The SCUT-CAB dataset can only be used for non-commercial research purpose.
 For any person/institute/company who do not works in the field of OCR or document analysis and visual information extraction, please contact us to obtain a commercial license.
 
 ## License
-SCUT-CAB dataset should be used and distributed under Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License for non-commercial research purposes.
+SCUT-CAB dataset should be used and distributed under [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
 
 ## Description
 <!-- The SCUT-CAB Dataset contains 4000  images of Chinese ancient books, including 31,931 layout element annotations, which contains different binding forms, fonts, and preservation conditions. To facilitate multiple tasks of layout analysis, the dataset is divided into two parts: CAB-Physical for physical layout analysis and CAB-Logical for logical layout analysis.  CAB-Physical contains 4 classes including 31,931 layout elements annotations, CAB-Logical contains 27 classes including 31,931 layout elements annotations. The SCUT-CAB dataset also contains the labeling of the reading order. -->

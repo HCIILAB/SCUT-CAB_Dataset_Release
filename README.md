@@ -109,8 +109,6 @@ Please consider to cite our paper when you use our dataset:
   author={Hiuyi Cheng, Cheng Jian, Sihang Wu, Lianwen Jin},
 }
 ```
-For any quetions about the dataset please contact the authors by sending email to Prof. Jin
-([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)), Hiuyi Cheng
-([eechenghiuyi@mail.scut.edu.cn](mailto:eechenghiuyi@mail.scut.edu.cn)) or Cheng Jian 
-([eechengjian@mail.scut.edu.cn](mailto:eechengjian@mail.scut.edu.cn)).
+
+For any quetions about the dataset please contact Prof. Jin([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)).
 

@@ -50,15 +50,11 @@ Please consider to cite our paper when you use our dataset:
 ```
 @article{zhang2020scut,
   title={SCUT-HCCDoc: A New Benchmark Dataset of Handwritten Chinese Text in Unconstrained Camera-captured Documents},
-  author={Zhang, Hesuo and Liang, Lingyu and Jin, Lianwen},
-  journal={Pattern Recognition},
-  pages={107559},
-  year={2020},
-  publisher={Elsevier}
+  author={Hiuyi Cheng, Cheng Jian, Sihang Wu, Lianwen Jin},
 }
 ```
 For any quetions about the dataset please contact the authors by sending email to Prof. Jin
-([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)), Prof. Lingyu Liang
-([lianglysky@gmail.com](mailto:lianglysky@gmail.com)) or Hesuo Zhang 
-([eehesuo.zhang@mail.scut.edu.cn](mailto:eehesuo.zhang@mail.scut.edu.cn)).
+([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn)), Hiuyi Cheng
+([eechenghiuyi@mail.scut.edu.cn](mailto:eechenghiuyi@mail.scut.edu.cn)) or Cheng Jian 
+([eechengjian@mail.scut.edu.cn](mailto:eechengjian@mail.scut.edu.cn)).
 

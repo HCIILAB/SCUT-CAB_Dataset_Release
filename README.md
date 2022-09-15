@@ -62,28 +62,28 @@ Table 2. Statistics of training and testing sets in SCUT-CAB-Logical.
 ## Directory Format
 The dataset is organized in the following directory format:
 ```
-├─SCUT_CAB
+├── SCUT_CAB
     ├── images
-    │   ├── test
-    │   │   ├── 01-V026P0002.jpg
-    │   │   └── 01-V086P0669.jpg
-    │   └── train
-    │       ├── 01-V026P0002.jpg
-    │       └── 01-V086P0669.jpg
+    │   ├── train
+    │   │   ├── xxx.jpg
+    │   │   └── ...
+    │   └── test
+    │       ├── xxx.jpg
+    │       └── ...
     ├── SCUT_CAB_logical
     │   ├── annotations
-    │   │   ├── instances_test2017.json
-    │   │   └── instances_test_val2017.json
+    │   │   ├── instances_train.json
+    │   │   └── instances_test.json
     │   └── josn
-    │       ├── 01-V001P000C.json
-    │       └── 01-V001P000D.json
+    │       ├── xxx.json
+    │       └── ...
     └── SCUT_CAB_physical
         ├── annotations
-        │   ├── instances_test2017.json
-        │   └── instances_test_val2017.json
+        │   ├── instances_train.json
+        │   └── instances_test.json
         └── json
-            ├── 01-V001P000C.json
-            └── 01-V001P000D.json
+            ├── xxx.json
+            └── ...
 
 ```
 

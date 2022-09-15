@@ -71,6 +71,7 @@ The dataset is organized in the following directory format:
     │       ├── xxx.jpg
     │       └── ...
     ├── SCUT_CAB_logical
+    │   ├── labels_logical.txt
     │   ├── annotations
     │   │   ├── instances_train.json
     │   │   └── instances_test.json
@@ -78,6 +79,7 @@ The dataset is organized in the following directory format:
     │       ├── xxx.json
     │       └── ...
     └── SCUT_CAB_physical
+        ├── labels_physical.txt
         ├── annotations
         │   ├── instances_train.json
         │   └── instances_test.json

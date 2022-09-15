@@ -62,29 +62,29 @@ Table 2. Statistics of training and testing sets in SCUT-CAB-Logical.
 ## Directory Format
 The dataset is organized in the following directory format:
 ```
-├─SCUT-CAB
-│  ├─SCUT-CAB-logical
-│  │  ├─images
-│  │  │  ├─xxx.png
-│  │  │  └─...
-│  │  ├─json
-│  │  │  ├─xxx.json
-│  │  │  └─...
-│  │  ├─coco
-│  │  │  ├─instances_train2017.json
-│  │  │  ├─instances_val2017.json
-│  │  │  └─instances_test2017.json
-│  ├─SCUT-CAB-physical
-│  │  ├─images
-│  │  │  ├─xxx.png
-│  │  │  └─...
-│  │  ├─json
-│  │  │  ├─xxx.json
-│  │  │  └─...
-│  │  ├─coco
-│  │  │  ├─instances_train2017.json
-│  │  │  ├─instances_val2017.json
-│  │  │  └─instances_test2017.json
+├─SCUT_CAB
+    ├── images
+    │   ├── test
+    │   │   ├── 01-V026P0002.jpg
+    │   │   └── 01-V086P0669.jpg
+    │   └── train
+    │       ├── 01-V026P0002.jpg
+    │       └── 01-V086P0669.jpg
+    ├── SCUT_CAB_logical
+    │   ├── annotations
+    │   │   ├── instances_test2017.json
+    │   │   └── instances_test_val2017.json
+    │   └── josn
+    │       ├── 01-V001P000C.json
+    │       └── 01-V001P000D.json
+    └── SCUT_CAB_physical
+        ├── annotations
+        │   ├── instances_test2017.json
+        │   └── instances_test_val2017.json
+        └── json
+            ├── 01-V001P000C.json
+            └── 01-V001P000D.json
+
 ```
 
 ## Citation and Contact

@@ -35,7 +35,7 @@ Ancient books have faded and corroded due to degradation from centuries of use. 
 ![](img/cab_quantities.png)
 Fig. 2. Multiple image quality of SCUT-CAB. (a) Pages damaged. (b) Ink fading. (c) Back-through. (d) Exquisite. (e) Damages and unclear.
 
-## SCUT-CAB-Logical and SCUT-CAB-Physical Subsets
+### SCUT-CAB-Logical and SCUT-CAB-Physical Subsets
 
 + SCUT-CAB-Logical: To better understand the meaning of different regions of ancient books, we define the categories of logical analysis data based on the basic knowledge of ancient books and the "Introduction to the Collation of Ancient Books." In this work, the following logical categories are annotated in SCUT-CAB: {EOV (end of the volume), author, bibliography, book number, caption, centerfold strip, chapter title, collation table, colophon, compiler, ear note, endnote, engraver, figure, foliation, header, interlinear note, marginal annotation, page box, part, section title, sub section title, subtitle, sutra number, text, title, volume number}. It contains 31,925 layout elements annotated in 27 categories. A sample of all categories is given in Fig. 3. 
 + SCUT-CAB-Physical: Physical analysis tasks do not need to classify as in detail as logical analysis tasks, so we modify the categories in SCUT-CAB-Logical. There are 4 categories: {centerfold strip, figure, page box, and text}.
@@ -50,7 +50,7 @@ SCUT-CAB includes reading-order annotations. As shown in Fig. 4, the correct rea
 ![](img/cab_reading_order.jpg)
 
 
-## Statistics of SCUT-CAB
+### Statistics of SCUT-CAB
 Table 1 and Table 2 provide the statistics of the training and testing sets in the SCUT-CAB-Physical and SCUT-CAB-Logical, respectively, where numbers and percentages of each category are presented.
 
 Table 1. Statistics of training and testing sets in SCUT-CAB-Physical.

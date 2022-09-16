@@ -1,6 +1,6 @@
 # SCUT-CAB_Dataset_Release
 The SCUT-CAB dataset for the research of document layout analysis in Chinese ancient books is now released by the Deep Leaning and Visual Computing Lab of South China University of Technology. The dataset can be downloaded through the following link:
-- [Baidu Cloud](https://pan.baidu.com/s/1U7WY9FaWz0BacB2RAMg4bQ)(Password: dlvc, Size=6.84G)
+- [Baidu Cloud](https://pan.baidu.com/s/1U7WY9FaWz0BacB2RAMg4bQ)(Size=6.84G)
 - [OneDrive](https://1drv.ms/u/s!AuZg70Qbn4fEiRdqGfRSMKn5FTuY?e=6sixhW) 
 
 Note: The SCUT-CAB dataset can only be used for non-commercial research purposes. For scholars or organizations who want to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application-Form-for-Using-SCUT-CAB.docx) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submitting the application form to us, please list or attach 1-2 of your publications in the last 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, and visual information extraction. At present, this dataset is only freely available to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.

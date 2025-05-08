@@ -5,6 +5,12 @@ The SCUT-CAB dataset for the research of document layout analysis in Chinese anc
 
 Note: The SCUT-CAB dataset can only be used for non-commercial research purposes. For scholars or organizations who want to use the SCUT-CAB database, please first fill in this [Application Form](Application_Form/Application-Form-for-Using-SCUT-CAB.docx) and send it via email to us ([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). When submitting the application form to us, please list or attach 1-2 of your publications in recent 6 years to indicate that you (or your team) do research in the related research fields of OCR, handwriting analysis and recognition, document image processing, or visual information extraction. At present, this dataset is only freely available to scholars in the above-mentioned fields. We will give you the decompression password after your letter has been received and approved.
 
+To ensure your application is processed as quickly as possible, we recommend that you pay attention to the following points when sending your email, as this can help increase the success rate of your application:
+1. **Application Information**: Ensure it is complete, accurate, and meets all requirements.
+2. **Email Content Format**: Use a formal email format, including an appropriate salutation, body, and signature. Avoid overly casual language, which could lead to your email being blocked.
+3. **Email Blocking**: Try using a different email address or adding the recipient's email address to your contacts.
+Thank you!
+
 ## License
 The SCUT-CAB dataset should be used and distributed under the [Creative Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License](https://creativecommons.org/licenses/by-nc-nd/4.0/) for non-commercial research purposes.
 

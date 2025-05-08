@@ -66,7 +66,7 @@ Table 2. Statistics of training and testing sets in SCUT-CAB-Logical.
 ![](img/cab_statistic_logical.png)
 
 ### Annotation guideline
-We provide a detailed annotation guideline([guideline/guideline_ancient](guideline_ancient.pdf)  and some typical annotation examples.
+We provide a detailed annotation [guideline_ancient](guideline/guideline_ancient.pdf)  and some typical annotation examples.
 
 ## Directory Format
 The dataset is organized in the following directory format:

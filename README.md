@@ -65,6 +65,9 @@ Table 1. Statistics of training and testing sets in SCUT-CAB-Physical.
 Table 2. Statistics of training and testing sets in SCUT-CAB-Logical.
 ![](img/cab_statistic_logical.png)
 
+### Annotation guideline
+We provide a detailed annotation guideline([guideline/guideline_ancient](guideline_ancient.pdf)  and some typical annotation examples.
+
 ## Directory Format
 The dataset is organized in the following directory format:
 ```
@@ -105,5 +108,7 @@ Please consider to cite our paper when you use our dataset:
   year={2022}
 }
 ```
+
+While this work primarily focuses on modern documents, we are also conducting research on the layout analysis of Complex modern documents. Please refer to the [GitHub link]([https://github.com/HCIILAB/SCUT-CAB_Dataset_Release](https://github.com/HCIILAB/M6Doc)) for more details.
 
 For any questions about the dataset, please contact the authors by sending an email to Prof. Jin([eelwjin@scut.edu.cn](mailto:eelwjin@scut.edu.cn), or [lianwen.jin@gmail.com](mailto:lianwen.jin@gmail.com)). 
